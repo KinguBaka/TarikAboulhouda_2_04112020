@@ -11,6 +11,16 @@ strong {
     font-weight: bold;
 }
 
+/* étoiles */
+.greystars{
+    color: #F2F2F2;
+}
+
+/* icone bleu */ 
+.blue{
+    color: #0065FC;
+}
+
 /* Nav */
 nav {
     display: flex;
@@ -21,13 +31,31 @@ nav {
     display: flex;
 }
 
-/* étoiles */
-.greystars{
-    color: #F2F2F2;
+/* Section 1 */ 
+
+/* Section 2 */ 
+
+#section2 {
+    float: right;
 }
 
-/* icone bleu */ 
+#section2-titre {
+    display: flex;
+}
 
-.blue{
-    color: #0065FC;
+#section2-global {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-chart-line {
+    margin: auto;
+}
+
+/* Section 3 */
+
+#section3-global {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
