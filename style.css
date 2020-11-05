@@ -11,6 +11,10 @@ strong {
     font-weight: bold;
 }
 
+#section2, #section3, #footer {
+    background-color: #F2F2F2;
+}
+
 /* étoiles */
 .greystars{
     color: #F2F2F2;
@@ -32,6 +36,14 @@ nav {
 }
 
 /* Section 1 */ 
+
+.fa-map-marker-alt {
+    background-color: #F2F2F2;
+}
+
+.fa-info {
+    color: #0065FC;
+}
 
 /* Section 2 */ 
 
@@ -58,4 +70,24 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+/* Section 4 */ 
+
+#section4-global {
+    display: flex;
+}
+
+/* Footer */
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: ;
+}
+
+#footer1, #footer2, #footer3 {
+    display: flex;
+    flex-direction: column;
 }
