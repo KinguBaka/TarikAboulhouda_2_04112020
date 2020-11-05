@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "Raleway-medium";
+    src: url("/Police/static/Raleway-Medium.ttf") format("truetype");
+}
+ /* Body */
+body {
+    font-family: "Raleway-medium";
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Nav */
 nav {
     display: flex;
     justify-content: space-between;
@@ -5,4 +19,15 @@ nav {
 
 #navbar-right-element {
     display: flex;
+}
+
+/* étoiles */
+.greystars{
+    color: #F2F2F2;
+}
+
+/* icone bleu */ 
+
+.blue{
+    color: #0065FC;
 }
