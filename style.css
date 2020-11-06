@@ -75,10 +75,15 @@ nav {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-
+    flex-wrap: wrap;
+    margin: 10px 10px 10px 10px;
 }
 
 /* Section 2 */ 
+
+#section2 {
+    padding: 15px 15px 15px 15px;
+}
 
 #section2-titre {
     display: flex;
@@ -88,6 +93,7 @@ nav {
     display: flex;
     background-color: white;
     border-radius: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
 }
 
 #section2-global img {
@@ -109,10 +115,19 @@ nav {
 
 /* Section 3 */
 
+#section3 {
+    padding: 15px 15px 15px 15px;
+}
+
 #section3-global {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+}
+
+#section3-1, #section3-2, #section3-3, #section3-4, #section3-5, #section3-6 {
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
 }
 
 /* Section 4 */ 
