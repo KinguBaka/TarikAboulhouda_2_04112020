@@ -15,6 +15,10 @@ strong {
     background-color: #F2F2F2;
 }
 
+#section2, #section3 {
+    border-radius: 3%;
+}
+
 /* étoiles */
 .greystars{
     color: #F2F2F2;
@@ -31,6 +35,7 @@ nav {
     justify-content: space-between;
 }
 
+
 #navbar-right-element {
     display: flex;
 }
@@ -45,14 +50,52 @@ nav {
     color: #0065FC;
 }
 
-/* Section 2 */ 
-
-#section2 {
-    float: right;
+#section1-filtres i{
+    background-color: #DEEBFF;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 13px;
 }
+
+#section1-description i {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* Section 2 & 3 */ 
+
+#section2and3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+/* Section 2 */ 
 
 #section2-titre {
     display: flex;
+}
+
+#section2-1, #section2-2, #section2-3 {
+    display: flex;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#section2-global img {
+    overflow: hidden;
+    max-height: 100%;
+    width: 135px;
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px 5px 5px 5px;
 }
 
 #section2-global {
@@ -84,7 +127,6 @@ nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: ;
 }
 
 #footer1, #footer2, #footer3 {
