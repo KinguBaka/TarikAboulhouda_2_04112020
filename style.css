@@ -121,6 +121,16 @@ nav {
 
 #section3-global {
     display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap;
+}
+
+#section-global img {
+    
+}
+
+#section3-global1, #section3-global2 {
+    display: flex;
     flex-wrap: wrap;
 }
 
