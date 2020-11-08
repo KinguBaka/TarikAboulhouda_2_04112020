@@ -92,16 +92,17 @@ nav {
 #section2-1, #section2-2, #section2-3 {
     display: flex;
     background-color: white;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 25px;
     margin: 5px 5px 5px 5px;
 }
 
 #section2-global img {
-    overflow: hidden;
-    max-height: 100%;
-    width: 135px;
-    border-radius: 10px 0px 0px 10px;
-    padding: 5px 5px 5px 5px;
+    object-fit: cover;
+    object-position: 50% 0;
+    width: 160px;
+    height: 180px;
+    border-radius: 30px 0px 0px 30px;
+    padding: 8px;
 }
 
 #section2-global {
@@ -125,8 +126,12 @@ nav {
     flex-wrap: wrap;
 }
 
-#section-global img {
-    
+#section3-global img {
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    object-position: 0 50%;
+    width: 330px;
+    height: 155px;
 }
 
 #section3-global1, #section3-global2 {
@@ -136,7 +141,7 @@ nav {
 
 #section3-1, #section3-2, #section3-3, #section3-4, #section3-5, #section3-6 {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 5px 5px 5px 5px;
 }
 
