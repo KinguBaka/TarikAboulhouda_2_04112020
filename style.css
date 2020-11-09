@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Raleway-medium";
-    src: url("/Police/static/Raleway-Medium.ttf") format("truetype");
+    src: url("/Police/static/Raleway.ttf") format("truetype");
 }
  /* Body */
 body {
@@ -27,6 +27,10 @@ a {
 /* étoiles */
 .greystars{
     color: #F2F2F2;
+}
+
+.fa-star {
+    padding-bottom: 25px;
 }
 
 /* icone bleu */ 
@@ -66,6 +70,10 @@ nav {
 
 
 /* Section 1 */ 
+
+#section1 {
+    margin-bottom: 30px;
+}
 
 .fa-map-marker-alt {
     background-color: #F2F2F2;
@@ -109,9 +117,6 @@ nav {
     margin: 30px 0px 30px 0px;
 }
 
-#section1-filtres p{
-
-}
 
 #section1-filtres i{
     background-color: #DEEBFF;
@@ -142,9 +147,8 @@ nav {
 #section2and3 {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin: 10px 10px 10px 10px;
 }
 
 /* Section 2 */ 
@@ -155,13 +159,27 @@ nav {
 
 #section2-titre {
     display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
 }
+
+.fa-chart-line{
+    font-size: 30px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
 
 #section2-1, #section2-2, #section2-3 {
     display: flex;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 30px;
     margin: 5px 5px 5px 5px;
+}
+
+#section2-global {
+    display: flex;
+    flex-direction: column;
 }
 
 #section2-global img {
@@ -173,14 +191,14 @@ nav {
     padding: 8px;
 }
 
-#section2-global {
+#section2-1texte, #section2-2texte, #section2-3texte {
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
-}
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
 
-.fa-chart-line {
-    margin: auto;
-}
 
 /* Section 3 */
 
