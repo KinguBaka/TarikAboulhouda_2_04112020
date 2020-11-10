@@ -16,10 +16,6 @@ strong {
     background-color: #F2F2F2;
 }
 
-#section2, #section3 {
-    border-radius: 3%;
-}
-
 a {
     text-decoration: none;
 }
@@ -27,10 +23,6 @@ a {
 /* étoiles */
 .greystars{
     color: #F2F2F2;
-}
-
-.fa-star {
-    padding-bottom: 25px;
 }
 
 /* icone bleu */ 
@@ -151,6 +143,10 @@ nav {
     flex-wrap: wrap;
 }
 
+#section2, #section3 {
+    border-radius: 30px;
+}
+
 /* Section 2 */ 
 
 #section2 {
@@ -161,6 +157,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     justify-content: space-between;
+    padding-left: 5px;
 }
 
 .fa-chart-line{
@@ -175,6 +172,7 @@ nav {
     background-color: white;
     border-radius: 30px;
     margin: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 6px #c4c4c4;
 }
 
 #section2-global {
@@ -188,7 +186,7 @@ nav {
     width: 160px;
     height: 180px;
     border-radius: 30px 0px 0px 30px;
-    padding: 8px;
+    padding: 6px;
 }
 
 #section2-1texte, #section2-2texte, #section2-3texte {
@@ -199,11 +197,19 @@ nav {
     flex-wrap: wrap;
 } 
 
+#section2 .fa-star {
+    padding-bottom: 25px;
+}
+
 
 /* Section 3 */
 
 #section3 {
     padding: 15px 15px 15px 15px;
+}
+
+#section3-titre {
+    padding-left: 30px;
 }
 
 #section3-global {
@@ -218,6 +224,13 @@ nav {
     object-position: 0 50%;
     width: 330px;
     height: 155px;
+    padding: 6px;
+}
+
+#section3-global p {
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-bottom: 10px;
 }
 
 #section3-global1, #section3-global2 {
@@ -228,7 +241,20 @@ nav {
 #section3-1, #section3-2, #section3-3, #section3-4, #section3-5, #section3-6 {
     background-color: white;
     border-radius: 20px;
-    margin: 5px 5px 5px 5px;
+    margin: 5px 30px 30px 30px;
+    box-shadow: 0px 0px 6px #c4c4c4;
+}
+
+#section3-1texte, #section3-2texte, #section3-3texte, #section3-4texte, #section3-5texte, #section3-6texte {
+    padding-left: 15px;
+}
+
+#section3 .fa-star {
+    padding-bottom: 10px;
+}
+
+#section3-afficher {
+    padding-left: 30px;
 }
 
 /* Section 4 */ 
