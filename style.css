@@ -182,7 +182,7 @@ nav {
 
 #section2-global img {
     object-fit: cover;
-    object-position: 50% 0;
+    object-position: 50% 50%;
     width: 160px;
     height: 180px;
     border-radius: 30px 0px 0px 30px;
@@ -221,7 +221,7 @@ nav {
 #section3-global img {
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-    object-position: 0 50%;
+    object-position: 50% 50%;
     width: 330px;
     height: 155px;
     padding: 6px;
@@ -261,6 +261,24 @@ nav {
 
 #section4-global {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#section4-2global, #section4-5global {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#section4-global img{
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+#section4-1img img {
+    width: 300px;
+    height: 700px;
 }
 
 /* Footer */
