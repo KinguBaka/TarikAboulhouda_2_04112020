@@ -12,7 +12,10 @@
         <!-- Navbar-->
         <header>
             <nav>
+                <!--Logo de gauche-->
                 <img src="\images\logo\Reservia.svg" alt="logo Reversia">
+
+                <!--Lien à droite-->
                 <div id="navbar-right-element">
                     <a class="navbar-button" href="#section2">Hèbergement</a>
                     <a class="navbar-button" href="#section4">Activités</a>
@@ -27,22 +30,54 @@
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
+
+            <!-- Barre de recherche-->
             <div id="section1-recherche">
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="search" placeholder="Marseille, France" id="section1-search">
                 <button>Rechercher</button>
             </div>
+
+            <!-- Filtre avec icones -->
+
             <div id="section1-filtres">
-                <p><strong>Filtres</strong></p>
-                <i class="fas fa-money-bill-wave blue"> </i> <p><strong>Économique</strong></p> 
-                <i class="fas fa-child blue"> </i> <p><strong>Familial</strong></p>
-                <i class="fas fa-heart blue"> </i> <p><strong>Romantique</strong></p> 
-                <i class="fas fa-dog blue"> </i> <p><strong>Animaux autorisés</strong></p> 
+                <p id="section1-filtres-titre"><strong>Filtres</strong></p>      
+
+                <div class="section1-filtres-bar">
+                    <button>
+                        <div class="circle-icon-filter">
+                        <i class="fas fa-money-bill-wave fa-lg"></i>
+                        </div>
+                        <p><strong>Économique</strong></p>
+                    </button>
+                    
+                    <button>
+                        <div class="circle-icon-filter">
+                        <i class="fas fa-child fa-lg"></i>
+                        </div>
+                        <p><strong>Familial</strong></p>
+                    </button>
+
+                    <button>
+                        <div class="circle-icon-filter">
+                        <i class="fas fa-heart fa-lg"></i>
+                        </div>
+                        <p><strong>Romantique</strong></p> 
+                    </button>
+
+                    <button>
+                        <div class="circle-icon-filter">
+                        <i class="fas fa-dog fa-lg"></i>
+                        </div>
+                        <p><strong>Animaux autorisés</strong></p>
+                    </button>
+                </div>
             </div>
-            <div id="section1-description">
-                <i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville
-                
-            </div>
+
+                <!-- Description -->
+                <div id="section1-description">
+                    <i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville
+                </div>
             
         </section>
 
