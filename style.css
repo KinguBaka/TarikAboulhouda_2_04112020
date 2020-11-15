@@ -53,7 +53,7 @@ a {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
     
 }
 
@@ -67,20 +67,27 @@ nav img {
     flex-direction: row;
     flex-wrap: wrap-reverse;
     justify-content: flex-end;
-    margin-top: 18px;
 }
 
 #navbar-right-element a {
     margin-right: 50px;
+    padding-top: 18px;
+}
+
+#navbar-right-element-right{
+    display: flex;
 }
 
 #navbar-right-element a:hover {
     color: #0065FC;
+    border-top: 3px solid  #0065FC;
 }
 
+   
 .navbar-button {
     color: black;
 }
+
 
 #navbar-login {
     font-weight: bold;
@@ -228,7 +235,7 @@ nav img {
 #section2and3 {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -426,7 +433,7 @@ nav img {
 
 #footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     padding: 0 20px 0 20px;
 }
@@ -434,4 +441,10 @@ nav img {
 #footer1, #footer2, #footer3 {
     display: flex;
     flex-direction: column;
+    white-space: nowrap;
+    margin: 10px 300px 10px 0;
+}
+
+#footer a{
+    padding: 10px 0 10px 0;
 }
