@@ -2,6 +2,37 @@
     font-family: "Raleway-medium";
     src: url("/Police/static/Raleway.ttf") format("truetype");
 }
+
+/* Media Queries */ 
+@media screen and (max-width: 1024px)
+{
+    #section1-button-text{
+       display: none;
+    }
+
+    #section3 {
+        background-color: white;
+    }
+
+    #section3-global1, #section3-global2 {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 1024px)
+{
+    #section1-button-image{
+        display: none;
+    }
+
+    #section3 {
+        background-color:#F2F2F2;
+    }
+}
+
+
+
  /* Body */
 body {
     font-family: "Raleway-medium";
@@ -17,7 +48,7 @@ strong {
     font-weight: bold;
 }
 
-#section2, #section3, #footer {
+#section2, #footer {
     background-color: #F2F2F2;
 }
 
@@ -125,7 +156,7 @@ nav img {
     border: 1px solid #F2F2F2;
 }
 
-#section1-recherche button {
+#section1-button-text {
     border-radius: 0 12px 12px 0;
     color: white;
     background-color: #0065FC;
@@ -135,6 +166,17 @@ nav img {
     font-weight: bold;
     width: 115px;
     height: 40px;
+    transition-duration: 0.4s;
+}
+
+#section1-button-image {
+    border-radius: 0 12px 12px 0;
+    color: white;
+    background-color: #0065FC;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    width: 50px;
     transition-duration: 0.4s;
 }
 
