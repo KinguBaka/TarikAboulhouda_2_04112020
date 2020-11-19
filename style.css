@@ -3,36 +3,6 @@
     src: url("/Police/static/Raleway.ttf") format("truetype");
 }
 
-/* Media Queries */ 
-@media screen and (max-width: 1024px)
-{
-    #section1-button-text{
-       display: none;
-    }
-
-    #section3 {
-        background-color: white;
-    }
-
-    #section3-global1, #section3-global2 {
-        flex-direction: column;
-    }
-
-}
-
-@media screen and (min-width: 1024px)
-{
-    #section1-button-image{
-        display: none;
-    }
-
-    #section3 {
-        background-color:#F2F2F2;
-    }
-}
-
-
-
  /* Body */
 body {
     font-family: "Raleway-medium";
@@ -112,6 +82,7 @@ nav img {
 #navbar-right-element a:hover {
     color: #0065FC;
     border-top: 3px solid  #0065FC;
+    padding-top: 15px;
 }
 
    
@@ -144,6 +115,10 @@ nav img {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
+}
+
+#section1-recherche input{
+    padding-left: 10px;
 }
 
 .fa-map-marker-alt {
@@ -211,7 +186,6 @@ nav img {
     white-space: nowrap;
     transition: transform 0.2s;
     margin: 5px 15px 5px 15px;
-
 }
 
 #section1-filtres button:hover {
@@ -339,7 +313,12 @@ nav img {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 50%;
 } 
+
+#section2-1texte p, #section2-2texte p, #section2-3texte p {
+    line-height: 150%;
+}
 
 #section2 .fa-star {
     padding-bottom: 25px;
@@ -489,4 +468,94 @@ nav img {
 
 #footer a{
     padding: 10px 0 10px 0;
+}
+
+
+/* Media Queries */ 
+
+/* pour mobile */
+@media screen and (max-width: 600px)
+{
+    #section1-button-text{
+       display: none;
+    }
+
+    #section2 {
+            flex: 100%;
+        }
+
+    #section3 {
+        background-color: white;
+    }
+
+    #section3 {
+        flex: 100%;
+    }
+
+    #section3-1, #section3-2, #section3-3, #section3-4, #section3-5, #section3-6 {
+        flex: 100%;
+        margin: 5px 0 5px 0;
+    }
+
+    #section3-global img {
+        width: 97%;
+    }
+
+    #section4-1, #section4-2, #section4-3, #section4-4, #section4-5, #section4-6 {
+        flex: 100%;
+    }
+
+    #section4-global img {
+        width: 100%;
+        height: 200px;
+    }
+
+
+}
+
+
+/* pour tablette */
+@media screen and  (min-width: 600px) and (max-width: 1024px)
+{
+    #section1-button-image{
+        display: none;
+    }
+
+    #section2 {
+        flex: 100%;
+    }
+
+    #section3 {
+        flex: 100%;
+    }
+
+    #section3-1, #section3-2, #section3-3, #section3-4, #section3-5, #section3-6 {
+        flex: 100%;
+        margin: 5px 0 5px 0;
+    }
+
+    #section3-global img {
+        width: 98%;
+    }
+
+    #section4-1, #section4-2, #section4-3, #section4-4, #section4-5, #section4-6 {
+        flex: 100%;
+    }
+
+    #section4-global img {
+        width: 100%;
+    }
+}
+
+
+/* pour ordinateur */
+@media screen and (min-width: 1024px)
+{
+    #section1-button-image{
+        display: none;
+    }
+
+    #section3 {
+        background-color:#F2F2F2;
+    }
 }
