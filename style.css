@@ -474,7 +474,7 @@ nav img {
 /* Media Queries */ 
 
 /* pour mobile */
-@media screen and (max-width: 600px)
+@media screen and (max-width: 599px)
 {
     #section1-button-text{
        display: none;
